@@ -49,8 +49,7 @@
 }
 
 
-.site-main {
-}
+
 .myteam-section {
     background-color: #014E56;
     height: 700px;
@@ -95,11 +94,69 @@
 .talant-info {
     width: 445px;
     height: 112px;
-    margin-top: 65px;
     font-family: Livvic;
     font-weight: 600;
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 0px;
     color: white;
+}
+
+
+
+.build-manage-section {
+    background-color: #012F34;
+    height: 684px;
+    padding-top: 140px;
+    background-image: url(../images/faind-tail-three.svg);
+    background-repeat: no-repeat;
+    background-position-y: 640px;
+    background-position-x: 1422px;
+}
+.build-manage {
+    display: flex;
+    gap: 125px;
+    margin-top: 140px;
+}
+
+.pink {
+    background-color: #F67E7E;
+}
+.build-manage-title {
+    width: 445px;
+    height: 144px;
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: white;
+}
+.managment {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.ean {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+.ean-title {
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #F67E7E;
+}
+.ean-info {
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: white;
+    margin-top: 16px;
 }
