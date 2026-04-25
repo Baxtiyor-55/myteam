@@ -46,6 +46,7 @@
     line-height: 28px;
     letter-spacing: 0px;
     color: white;
+    cursor: pointer;
 }
 
 
@@ -159,4 +160,156 @@
     letter-spacing: 0px;
     color: white;
     margin-top: 16px;
+}
+
+
+
+
+.delivering-section {
+    background-color: #004047;
+    padding-top: 140px;
+    height: 560px;
+}
+
+.deleving-title {
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-left: 100px;
+    color: white;
+    width: 932px;
+    height: 96px;
+}
+.deleving-title-span{
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: #79C8C7;
+}
+.the-we-amazing-big {
+    display: flex;
+}
+.the-we-amazing-info {
+    width: 350px;
+    height: 100px;
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    margin-top: 92px;
+    margin-bottom: 24px;
+}
+.the-we-amazing-title {
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #79C8C7;
+}
+.the-we-amazing-info-two {
+    font-family: Livvic;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    margin-bottom: 32px;
+}
+.the-we-amazing-img{
+    margin-left: 144px;
+}
+
+
+.ready-section {
+    background-color: #F67E7E;
+    height: 200px;
+    padding-top: 130px;
+    background-image: url(../images/faind-tail-four.svg);
+    background-repeat: no-repeat;
+    background-position-y: 190px;
+}
+.ready {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 260px;
+}
+.rady-title {
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: #012F34;
+}
+.button-ready button {
+    width: 153px;
+    padding: 10px 33px;
+    background: none;
+    border: 2px solid #012F34;
+    border-radius: 24px;
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #012F34;
+    cursor: pointer;
+}
+
+
+.site-footer {
+    background-color: #002529;
+    height: 140px;
+    padding-top: 50px;
+}
+.myteam-footer-big {
+    display: flex;
+    gap: 380px;
+}
+.myteam-footer-link {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-a{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: -48px;
+    margin-top: 25px;
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+}
+.footer-a a{
+    color: white;
+}
+.lane {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    height: 100px;
+    width: 100px;
+}
+.lane-info {
+}
+.footer-icon {
+}
+.iconn {
+}
+.foter-icon-infoo {
 }
