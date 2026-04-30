@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box0;
+    text-decoration: none;
+}
+.container{
+    margin: 0 auto;
+    width: 1110px;
+    padding:0 20px ;
+}
+.myteam-header {
+    background-color: #014E56;
+}
+.site-navbar {
+    padding-top: 73px;
+}
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+.important-link {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    margin-left: 80px;
+    margin-right: 577px;
+}
+.important-link a{
+    color: white;
+}
+.navbar-btn {
+    width: 153px;
+    padding: 10px 32px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 24px;
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.myteam-section {
+    background-color: #014E56;
+    height: 417px;
+    background-image: url(../photo/Group\ 8.svg);
+    background-repeat: no-repeat;
+    background-position-y: 217px ;
+    background-position-x: 1435px ;
+}
+.talant {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 1110px;
+    height: 200px;
+    padding-top: 129px;
+}
+.talant-title {
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    letter-spacing: 0px;
+    color: white;
+    width: 350px;
+    height: 100px;
+}
+.talant-info-div{
+    width: 445px;
+    height: 195px;
+}
+.line{
+    width: 50px;
+    height: 4px;
+    background-color:#F67E7E;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.talant-info {
+    width: 445px;
+    height: 112px;
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: white;
+}
+
+.meet-section {
+    background-color: #004047;
+    height: 1002px;
+    background-image: url(../photo/Group\ 8\ \(1\).svg);
+    background-repeat: no-repeat;
+}
+.meet-title {
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+    padding-top: 140px;
+    margin-bottom: 64px;
+}
+.big-meet {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.four{
+    position: absolute;
+    top: 1442px;
+    left: 1372px;
+}
