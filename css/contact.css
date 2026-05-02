@@ -6,21 +6,21 @@
 }
 .container{
     margin: 0 auto;
-    max-width: 1110px;
+    width: 1110px;
     padding:0 20px ;
 }
-.myteam-header {
+.myteam-contact-header {
     background-color: #014E56;
 }
-.site-navbar {
+.site-contact-navbar {
     padding-top: 73px;
 }
-.nav-link {
+.nav-contact-link {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.important-link {
+.important-contact-link {
     display: flex;
     align-items: center;
     gap: 40px;
@@ -29,12 +29,11 @@
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 0px;
-    margin-left: 80px;
 }
-.important-link a{
+.important-contact-link a{
     color: white;
 }
-.navbar-btn {
+.navbar-contact-btn {
     width: 153px;
     padding: 10px 32px;
     background: none;
@@ -49,147 +48,91 @@
     cursor: pointer;
 }
 
-@media(max-width: 768px) {
-    
-}
-
-.myteam-section {
+.site-contact-section {
     background-color: #014E56;
-    height: 417px;
-    background-image: url(../photo/Group\ 8.svg);
+    height: 600px;
+    padding-top: 120px;
+    background-image: url(../contact-images/Group\ 8.svg);
     background-repeat: no-repeat;
-    background-position-y: 217px ;
-    background-position-x: 1435px ;
+    background-position-y: 130px ;
 }
-.talant {
+.contact-big {
     display: flex;
     align-items: center;
-    gap: 30px;
-    max-width: 1110px;
-    height: 200px;
-    padding-top: 129px;
+    gap: 100px;
 }
-.talant-title {
+.contact-title {
     font-family: Livvic;
     font-weight: 700;
     font-size: 64px;
     line-height: 100px;
     letter-spacing: 0px;
     color: white;
-    width: 350px;
-    height: 100px;
 }
-.talant-info-div{
-    max-width: 445px;
-    height: 195px;
-}
-.line{
-    width: 50px;
-    height: 4px;
-    background-color:#F67E7E;
-    display: inline-block;
-    margin-bottom: 40px;
-}
-.talant-info {
-    width: 445px;
-    height: 112px;
-    font-family: Livvic;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: 0px;
-    color: white;
-}
-
-@media(max-width:768px){
-    .talant{
-        flex-direction: column;
-        text-align: center !important;
-        padding-top:112px ;
-    }
-}
-/*  */
-.meet-section {
-    background-color: #004047;
-    height: 1002px;
-    background-image: url(../photo/Group\ 8\ \(1\).svg);
-    background-repeat: no-repeat;
-}
-.meet-title {
+.contact-title-h3 {
     font-family: Livvic;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 32px;
     line-height: 48px;
     letter-spacing: 0px;
-    text-align: center;
-    color: white;
-    padding-top: 140px;
-    margin-bottom: 64px;
+    color: #F67E7E;
 }
-.big-meet {
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-.four{
-    position: absolute;
-    top: 1442px;
-    left: 1372px;
-}
-
-
-
-.some-section {
-    background-color: #012F34;
-    padding-top: 140px;
-    height: 290px;
-    background-image: url(../photo/some.svg);
-    background-repeat: no-repeat;
-}
-.some-tile {
-    font-family: Livvic;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 48px;
-    letter-spacing: 0px;
-    text-align: center;
-    color: white;
-    margin-bottom: 64px;
-}
-
-.ready-section {
-    background-color: #F67E7E;
-    height: 120px;
-    padding-top: 76px;
-    background-image: url(../photo/ready.svg);
-    background-repeat: no-repeat;
-    background-position-y: 52px;
-}
-.ready-flex{
+.img-info-flex{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 23px;
 }
-.ready-title {
+.img-info-title {
     font-family: Livvic;
     font-weight: 700;
-    font-size: 48px;
-    line-height: 48px;
+    font-size: 18px;
+    line-height: 28px;
     letter-spacing: 0px;
-    color: #012F34;
+    color: white;
 }
-.ready-btn {
-    width: 153px;
-    height: 48px;
+.contact-input {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.contact-input ::placeholder{
+    padding-left: 10px;
+}
+.contact-input input{
+    width: 540px;
+    height: 42px;
     background: none;
-    border: 2px solid #012F34;
+    border-bottom: 1px solid white;
+    border-top:none;
+    border-left: none;
+    border-right:none ;
+}
+.contact-input textarea{
+    resize: none;
+    width: 540px;
+    height: 84px;
+    background: none;
+    border-bottom: 1px solid white;
+    border-top:none;
+    border-left: none;
+    border-right:none ;
+}
+.contact-btn {
+    width: 123px;
+    height: 48px;
+    border-radius: 24px;
+    border: none;
     font-family: Livvic;
     font-weight: 600;
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 0px;
-    color: #012F34;
-    border-radius: 24px;
+    color: #004047;
+    padding-bottom: -10px;
+    cursor: pointer;
 }
+
+
 
 
 

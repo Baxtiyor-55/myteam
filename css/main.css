@@ -271,45 +271,57 @@
 
 .site-footer {
     background-color: #002529;
-    height: 140px;
-    padding-top: 50px;
+    padding-top: 48px;
+    padding-bottom: 24px;
 }
-.myteam-footer-big {
+.footer-big {
     display: flex;
-    gap: 380px;
 }
-.myteam-footer-link {
+.footer-logo {
     display: flex;
-    align-items: center;
     flex-direction: column;
 }
-.footer-a{
+.ahref-footer{
     display: flex;
-    align-items: center;
     gap: 40px;
-    margin-left: -48px;
     margin-top: 25px;
+}
+.ahref-footer a{
     font-family: Livvic;
     font-weight: 600;
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 0px;
-}
-.footer-a a{
     color: white;
 }
-.lane {
-    display: flex;
-    align-items: center;
-    flex-direction: column; 
+.footer-info-div {
+    width: 445px;
     height: 100px;
-    width: 100px;
+    margin-left: 125px;
 }
-.lane-info {
+.footer-info {
+    padding-right: 280px;
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
 }
-.footer-icon {
+.copyright {
+    display: flex;
+    flex-direction: column;
 }
-.iconn {
+.footer-iconn {
+    display: flex;
+    gap: 16px;
 }
-.foter-icon-infoo {
+.footer-icon-info {
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: #FFFFFF;
 }
